@@ -2,6 +2,7 @@
   "name": "blog",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.16.7",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@rails/actioncable": "^6.0.0-alpha",
     "@rails/activestorage": "^6.0.0-alpha",
@@ -15,5 +16,14 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^4.7.2"
+  },
+  "babel": {
+    "presets": [
+      "./node_modules/@rails/webpacker/package/babel/preset.js"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-private-methods"
+    ]
   }
 }
