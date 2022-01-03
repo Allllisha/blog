@@ -11,7 +11,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'simple_form'
-gem 'sass-rails', '~> 5'
+gem "sass-rails", "~> 6"
 gem 'cloudinary', '~> 1.16.0'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'font-awesome-sass', '~> 5.6.1'

@@ -2,28 +2,24 @@
   "name": "blog",
   "private": true,
   "dependencies": {
-    "@babel/plugin-proposal-private-methods": "^7.16.7",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@rails/actioncable": "^6.0.0-alpha",
     "@rails/activestorage": "^6.0.0-alpha",
     "@rails/ujs": "^6.0.0-alpha",
     "@rails/webpacker": "4.3.0",
     "bootstrap": "4.6",
+    "electron-to-chromium": "^1.4.31",
     "jquery": "^3.6.0",
+    "node-releases": "^2.0.1",
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^8.2.3",
     "webpack-dev-server": "^4.7.2"
-  },
-  "babel": {
-    "presets": [
-      "./node_modules/@rails/webpacker/package/babel/preset.js"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-proposal-private-methods"
-    ]
   }
 }
