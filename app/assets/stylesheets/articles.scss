@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+.card{
+min-height:300px;
+}
+
+h1{
+  color: lightgrey;
+}
+
+.new {
+margin-top: 50px;
+display: flex;
+justify-content: center;
+}
+
+.card-container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-link{
+  color: darkslategrey;
+}
+
+.title-link{
+  color: rgb(45, 39, 39);
+}
+
+.title-link:hover{
+  text-decoration: none;
+}
+
+.card-title{
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
