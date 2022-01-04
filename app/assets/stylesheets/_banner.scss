@@ -1,7 +1,8 @@
 .home-banner {
-  background-image: asset_url('white.jpeg');
+  background-image: asset_url('white.jpg');
+  background-position: top center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   color: #eee;
   text-align: center;
   padding-top: 40vh;

@@ -10,7 +10,7 @@
       <tr>
        <div class="card-container">
        <div class="card" style="width: 18rem;">
-       <img src="https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" class="card-img-top" alt="...">
+       <%= image_tag article.photo %>
        <div class="card-body">
        <h5 class="card-title"><td><%= link_to article.title, article, class: "title-link" %></td></h5>
         <td><%= link_to edit_article_path(article), class: "btn-link" do %>
